@@ -238,7 +238,7 @@ async def delall(bot, update):
     
     for channel in channels:
         if channel == None:
-        print (channel)
+            print(channel)
             continue
         try:
             await bot.USER.leave_chat(channel)
